@@ -1,0 +1,176 @@
+Hier ist der HTML-Code mit farblichen Markierungen und einer Erklärung, warum der Code semantisch optimal ist:
+
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Mustermann - Lebenslauf</title>
+</head>
+<body>
+
+    <header style="color: blue;">
+        <img src="/mnt/data/A_professional_headshot_of_a_young_male_software_d.png" alt="Max Mustermann" width="300" height="300">
+        <h1>Max Mustermann</h1>
+        <ul>
+            <li><a href="mailto:max.mustermann@example.com">max.mustermann@example.com</a></li>
+            <li><a href="tel:+491234567890">+49 123 456 7890</a></li>
+        </ul>
+    </header>
+
+    <section style="color: green;">
+        <h2>Objective</h2>
+        <p>To secure a challenging position where I can effectively contribute my skills and ensure my professional growth.</p>
+    </section>
+
+    <section style="color: green;">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>Technical University of Munich, 2015-2019</p>
+            </li>
+            <li>
+                <h3>Master of Science in Software Engineering</h3>
+                <p>University of Stuttgart, 2019-2021</p>
+            </li>
+        </ul>
+    </section>
+
+    <section style="color: green;">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Software Developer</h3>
+                <p>ABC Tech Solutions, 2021-Present</p>
+                <p>Developing and maintaining web applications using JavaScript, HTML, and CSS.</p>
+            </li>
+            <li>
+                <h3>Intern</h3>
+                <p>XYZ Software, Summer 2020</p>
+                <p>Assisted in the development of a customer management system using Python and Django.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section style="color: green;">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section style="color: green;">
+        <h2>Interests</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Open Source Contribution</li>
+            <li>Reading</li>
+            <li>Traveling</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+```
+
+### Erklärung der Semantik und Markierungen:
+
+1. **DOCTYPE Deklaration und grundlegende Metadaten:**
+   ```html
+   <!DOCTYPE html>
+   <html lang="de">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Max Mustermann - Lebenslauf</title>
+   </head>
+   ```
+   - Die **DOCTYPE Deklaration** legt fest, dass es sich um ein HTML5-Dokument handelt.
+   - Die **`<html lang="de">`**-Deklaration gibt die Sprache der Seite an (Deutsch).
+   - **`<meta charset="UTF-8">`** stellt sicher, dass die Seite korrekt codiert ist.
+   - **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`** sorgt dafür, dass die Seite auf verschiedenen Geräten gut dargestellt wird.
+   - Der **`<title>`**-Tag gibt der Seite einen Titel, der im Browser-Tab angezeigt wird.
+
+2. **Header-Bereich:**
+   ```html
+   <header style="color: blue;">
+       <img src="/mnt/data/A_professional_headshot_of_a_young_male_software_d.png" alt="Max Mustermann" width="300" height="300">
+       <h1>Max Mustermann</h1>
+       <ul>
+           <li><a href="mailto:max.mustermann@example.com">max.mustermann@example.com</a></li>
+           <li><a href="tel:+491234567890">+49 123 456 7890</a></li>
+       </ul>
+   </header>
+   ```
+   - **`<header>`** wird verwendet, um den Kopfbereich des Dokuments zu definieren. Dieser Bereich enthält wichtige Informationen wie den Namen und die Kontaktdaten.
+   - **`<img>`** fügt ein Bild hinzu, das den Bewerber darstellt. Der **`alt`**-Text stellt sicher, dass das Bild eine Beschreibung hat, falls es nicht geladen werden kann.
+   - **`<h1>`** definiert den Haupttitel der Seite, in diesem Fall den Namen des Bewerbers.
+   - **`<ul>`** und **`<li>`** werden verwendet, um eine Liste von Kontaktdaten zu erstellen, wobei die **`<a>`**-Tags klickbare Links für E-Mail und Telefonnummer sind.
+
+3. **Sections für verschiedene Inhalte:**
+   ```html
+   <section style="color: green;">
+       <h2>Objective</h2>
+       <p>To secure a challenging position where I can effectively contribute my skills and ensure my professional growth.</p>
+   </section>
+   
+   <section style="color: green;">
+       <h2>Education</h2>
+       <ul>
+           <li>
+               <h3>Bachelor of Science in Computer Science</h3>
+               <p>Technical University of Munich, 2015-2019</p>
+           </li>
+           <li>
+               <h3>Master of Science in Software Engineering</h3>
+               <p>University of Stuttgart, 2019-2021</p>
+           </li>
+       </ul>
+   </section>
+   
+   <section style="color: green;">
+       <h2>Experience</h2>
+       <ul>
+           <li>
+               <h3>Software Developer</h3>
+               <p>ABC Tech Solutions, 2021-Present</p>
+               <p>Developing and maintaining web applications using JavaScript, HTML, and CSS.</p>
+           </li>
+           <li>
+               <h3>Intern</h3>
+               <p>XYZ Software, Summer 2020</p>
+               <p>Assisted in the development of a customer management system using Python and Django.</p>
+           </li>
+       </ul>
+   </section>
+   
+   <section style="color: green;">
+       <h2>Skills</h2>
+       <ul>
+           <li>JavaScript</li>
+           <li>HTML & CSS</li>
+           <li>Python</li>
+           <li>Java</li>
+       </ul>
+   </section>
+   
+   <section style="color: green;">
+       <h2>Interests</h2>
+       <ul>
+           <li>Coding</li>
+           <li>Open Source Contribution</li>
+           <li>Reading</li>
+           <li>Traveling</li>
+       </ul>
+   </section>
+   ```
+   - **`<section>`**-Tags gruppieren verwandte Inhalte zusammen, was die Struktur des Dokuments verbessert und die Zugänglichkeit erhöht.
+   - Jede **`<section>`** hat einen **`<h2>`**-Titel, der den Inhalt der Sektion beschreibt (z.B. Objective, Education, Experience).
+   - **`<ul>`** und **`<li>`** werden verwendet, um Listen innerhalb der Sektionen zu erstellen. Innerhalb der Listen werden **`<h3>`**-Tags für Untertitel und **`<p>`**-Tags für Details verwendet.
+
+Durch die Verwendung dieser semantischen Tags wird die Struktur des Dokuments klar definiert und die Zugänglichkeit und Lesbarkeit sowohl für Benutzer als auch für Suchmaschinen verbessert.
